@@ -15,7 +15,9 @@
 /**********************************
     General
 **********************************/
-body {}
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
 
 /**********************************
     Header
@@ -27,6 +29,11 @@ nav {}
 #hero-title {}
 
 #hero-subtitle {}
+
+nav a.brand-logo {
+    font-size: 24px;
+    font-weight: 500;
+}
 
 /**********************************
     Cities
