@@ -19,12 +19,29 @@ body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --cta: #ffee58;
+    --primary: #ff00af
+}
+
+::selection {
+    background-color: var(--cta);
+    color: var(--primary);
+}
+
 /**********************************
     Header
 **********************************/
 header {}
 
 nav {}
+
+#hero-header {}
+
+#hero-header .btn {
+    color: var(--primary);
+    font-weight: 500;
+}
 
 #hero-title {}
 
@@ -35,10 +52,16 @@ nav a.brand-logo {
     font-weight: 500;
 }
 
+
+
 /**********************************
     Cities
 **********************************/
 #cities {}
+
+#cities card.btn {
+    background-color: var(--cta);
+}
 
 /**********************************
     Table of contents
