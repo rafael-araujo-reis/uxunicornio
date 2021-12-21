@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/global.css">
@@ -14,10 +15,12 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -35,16 +38,16 @@
             </div>
         </nav>
 
-        <div id="hero-header">
+        <div id="hero-header" class="valign-wrapper">
             <div class="container m10">
                 <div class="row">
                     <div class="col s12 m8">
                         <h1 hero="hero-title">Curso de Designer de Produto focado em UX/UI</h1>
-                        <p id="hero-subtitle">Destaque-se no mercado com conhecimentos em Experiência do Usuário,
+                        <h5 id="hero-subtitle">Destaque-se no mercado com conhecimentos em Experiência do Usuário,
                             Estratégia
                             de
                             Negócios, Metodologias
-                            Ágeis, Design de Interfaces Web/App e Softskills.</p>
+                            Ágeis, Design de Interfaces Web/App e Softskills.</h5>
                         <button class="btn pulse yellow accent-3">Lista de Espera</button>
                     </div>
                 </div>
@@ -53,197 +56,196 @@
         </div>
     </header>
 
-    <section id="call-to-scroll">
-        <p>Veja as datas da sua cidade</p>
-        <p><i>Seta para baixo</i></p>
+    <section id="call-to-scroll" class="center-align">
+        <h5>Veja as datas da sua cidade</h5>
+        <p><i class="material-icons medium">keyboard_arrow_down</i></p>
     </section>
 
     <!-- Cities -->
-    <section id="cities">
-        <h id="cities-title">Na sua cidade, presencial e feito para você</h2>
+    <section id="cities" class="container">
+        <h2 id="cities-title">Na sua cidade, presencial e feito para você</h2>
 
-            <!-- linha 1 -->
-            <div class="row">
-                <!-- cidade -->
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
+        <!-- linha 1 -->
+        <div class="row">
+            <!-- cidade -->
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
                     </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
+                    <div class="card-content">
+                        <p class="card-title">São Paulo</p>
                     </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4 xl3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/cards.jpg">
-                            <span class="card-title">Nome da cidade</span>
-                        </div>
-                        <div class="card-content">
-                            <p>R$1500</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn">Lista de Espera</a>
-                        </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
                     </div>
                 </div>
             </div>
-    </section>
-    <!-- Table of contents -->
-    <section id="table-of-contents">
-        <h2 id="table-of-contents-title">O que você vai aprender nesses 2 dias intensos</h2>
-        <p id="table-of-contents-subtitle">Esse curso de 16h tem conteúdos inéditos e tudo que há de melhor em todos os
-            meus 10 cursos online somandos!! <span>É mitológico</span></p>
-
-        <div id="table-of-contents-content">
-            <div class="row">
-                <div class="col s12 m6">
-                    <h3 class="table-of-contents-content-title">Estratégia de Negócio com foco no Usuário</h3>
-                    <ul>
-                        <li class="table-of-contents-content-items">Emplacar UX na sua Empresa</li>
-                        <li class="table-of-contents-content-items">Explorar problemas</li>
-                        <li class="table-of-contents-content-items">Especializar-se no seu negócio</li>
-                        <li class="table-of-contents-content-items">Aproximar-se de Stakeholders</li>
-                        <li class="table-of-contents-content-items">Definir metas e medir resultados</li>
-                    </ul>
-
-                    <h3 class="table-of-contents-content-title">Design de Interfaces (UI)</h3>
-                    <ul>
-                        <li class="table-of-contents-content-items">Organizar Grids</li>
-                        <li class="table-of-contents-content-items">Entender e definir Hierarquia Visual</li>
-                        <li class="table-of-contents-content-items">Criar paletas de cores com foco no funcional</li>
-                        <li class="table-of-contents-content-items">Escolher tipografias com boa legibilidade e
-                            leiturabilidade</li>
-                        <li class="table-of-contents-content-items">Criar botões que ajudam os usuários</li>
-                        <li class="table-of-contents-content-items">Criar formulários mais fáceis de usar</li>
-                    </ul>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Brasília</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
                 </div>
-                <div class="col s12 m6">
-                    <h3 class="table-of-contents-content-title">Design de Experiência do Usuário (UX)</h3>
-                    <ul>
-                        <li class="table-of-contents-content-items">Validar suposições com Usuários</li>
-                        <li class="table-of-contents-content-items">Estudar as Jornadas e Contextos</li>
-                        <li class="table-of-contents-content-items">Mapear seus potenciais usuários</li>
-                        <li class="table-of-contents-content-items">Priorizar Alternativas de Soluções</li>
-                        <li class="table-of-contents-content-items">Prototipar e testar com Usuários</li>
-                    </ul>
-
-                    <h3 class="table-of-contents-content-title">Gestão de Produto e Metodologias Ágeis</h3>
-                    <ul>
-                        <li class="table-of-contents-content-items">Trabalhar em equipes ágeis</li>
-                        <li class="table-of-contents-content-items">Trabalhar com UX no SCRUM - ritos e papéis</li>
-                        <li class="table-of-contents-content-items">Definir suposições e testar hipóteses LEAN UX</li>
-                        <li class="table-of-contents-content-items">Interagir com desenvolvedores</li>
-                        <li class="table-of-contents-content-items">Gerenciar roadmap de produto</li>
-                        <li class="table-of-contents-content-items">Organizar e acompanhar projetos</li>
-                    </ul>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Pernambuco </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Maranhão </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Rio de Janeiro</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Curitiba</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Porto Alegre</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Tocantins</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/images/card.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Bahia</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn">Lista de Espera</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Table of contents -->
+    <section id="table-of-contents">
+        <div class="container">
+
+
+            <h2 id="table-of-contents-title">O que você vai aprender nesses 2 dias intensos</h2>
+            <p id="table-of-contents-subtitle">Esse curso de 16h tem conteúdos inéditos e tudo que há de melhor em todos
+                os
+                meus 10 cursos online somandos!! <span>É mitológico</span></p>
+
+            <div id="table-of-contents-content">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h3 class="table-of-contents-content-title">Estratégia de Negócio com foco no Usuário</h3>
+                        <ul>
+                            <li class="table-of-contents-content-items">Emplacar UX na sua Empresa</li>
+                            <li class="table-of-contents-content-items">Explorar problemas</li>
+                            <li class="table-of-contents-content-items">Especializar-se no seu negócio</li>
+                            <li class="table-of-contents-content-items">Aproximar-se de Stakeholders</li>
+                            <li class="table-of-contents-content-items">Definir metas e medir resultados</li>
+                        </ul>
+
+                        <h3 class="table-of-contents-content-title">Design de Interfaces (UI)</h3>
+                        <ul>
+                            <li class="table-of-contents-content-items">Organizar Grids</li>
+                            <li class="table-of-contents-content-items">Entender e definir Hierarquia Visual</li>
+                            <li class="table-of-contents-content-items">Criar paletas de cores com foco no funcional
+                            </li>
+                            <li class="table-of-contents-content-items">Escolher tipografias com boa legibilidade e
+                                leiturabilidade</li>
+                            <li class="table-of-contents-content-items">Criar botões que ajudam os usuários</li>
+                            <li class="table-of-contents-content-items">Criar formulários mais fáceis de usar</li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m6">
+                        <h3 class="table-of-contents-content-title">Design de Experiência do Usuário (UX)</h3>
+                        <ul>
+                            <li class="table-of-contents-content-items">Validar suposições com Usuários</li>
+                            <li class="table-of-contents-content-items">Estudar as Jornadas e Contextos</li>
+                            <li class="table-of-contents-content-items">Mapear seus potenciais usuários</li>
+                            <li class="table-of-contents-content-items">Priorizar Alternativas de Soluções</li>
+                            <li class="table-of-contents-content-items">Prototipar e testar com Usuários</li>
+                        </ul>
+
+                        <h3 class="table-of-contents-content-title">Gestão de Produto e Metodologias Ágeis</h3>
+                        <ul>
+                            <li class="table-of-contents-content-items">Trabalhar em equipes ágeis</li>
+                            <li class="table-of-contents-content-items">Trabalhar com UX no SCRUM - ritos e papéis</li>
+                            <li class="table-of-contents-content-items">Definir suposições e testar hipóteses LEAN UX
+                            </li>
+                            <li class="table-of-contents-content-items">Interagir com desenvolvedores</li>
+                            <li class="table-of-contents-content-items">Gerenciar roadmap de produto</li>
+                            <li class="table-of-contents-content-items">Organizar e acompanhar projetos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </section>
 
     <!-- Bonus
@@ -252,19 +254,19 @@
     </section> -->
 
     <!-- Stats -->
-    <section id="stats">
-        <div class="row">
+    <section id="stats" class="center-align">
+        <div class="row container">
             <div class="col s12 m4">
-                <h3>+40.000</h3>
-                <p>Alunos</p>
+                <h3 class="stats-content-title">+40.000</h3>
+                <p class="stats-content-subtitle">Alunos</p>
             </div>
             <div class="col s12 m4">
-                <h3>+50</h3>
-                <p>Países</p>
+                <h3 class="stats-content-title">+50</h3>
+                <p class="stats-content-subtitle">Países</p>
             </div>
             <div class="col s12 m4">
-                <h3>+12.000</h3>
-                <p>Avaliações 5<i>stars</i></p>
+                <h3 class="stats-content-title">+12.000</h3>
+                <p class="stats-content-subtitle">Avaliações 5<i class="material-icons">star</i></p>
             </div>
         </div>
     </section>
@@ -279,7 +281,7 @@
 
     </section> -->
 
-    <footer class="page-footer">
+    <footer id="footer" class="page-footer">
         <div class="container">
             <div class="row">
                 <div class="col l5 s12">

@@ -21,7 +21,9 @@ body {
 
 :root {
     --cta: #ffee58;
-    --primary: #ff00af
+    --primary: #ff00af;
+    --black: #60495F;
+    --purple: #9c27b0;
 }
 
 ::selection {
@@ -29,18 +31,81 @@ body {
     color: var(--primary);
 }
 
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    /*margin-top: 150px;*/
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #ff00af;
+    margin-bottom: 32px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #60495F;
+}
+
 /**********************************
     Header
 **********************************/
 header {}
 
-nav {}
+#hero nav {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
 
-#hero-header {}
+header#hero,
+nav {
+    color: #FFFFFF;
+    background: #ac3ecf;
+    background: -moz-linear-gradient(-45deg, #ac3ecf 0%, #ff00af 100%);
+    background: -webkit-linear-gradient(-45deg, #ac3ecf 0%, #ff00af 100%);
+    background: linear-gradient(135deg, #ac3ecf 0%, #ff00af 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ac3ecf', endColorstr='#ff00af', GradientType=1);
+
+}
+
+#hero-header {
+    height: 750px;
+    background-image: url("../images/maps.svg");
+    background-repeat: no-repeat;
+    background-position: 85% -100px;
+    background-attachment: fixed;
+}
+
+#hero-header h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#hero-header h5 {
+    font-size: 1rem;
+}
 
 #hero-header .btn {
     color: var(--primary);
     font-weight: 500;
+}
+
+#hero-header .col {
+    padding: 0;
 }
 
 #hero-title {}
@@ -52,7 +117,23 @@ nav a.brand-logo {
     font-weight: 500;
 }
 
+#call-to-scroll {
+    padding: 1rem;
+}
 
+#call-to-scroll h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#call-to-scroll i {
+    margin-top: -24px;
+}
+
+#call-to-scroll h5,
+#call-to-scroll i {
+    color: var(--primary);
+}
 
 /**********************************
     Cities
@@ -63,17 +144,77 @@ nav a.brand-logo {
     background-color: var(--cta);
 }
 
+#cities .btn {
+    width: 100%;
+    background: var(--primary);
+}
+
+#cities .btn:hover {
+    background: var(--purple);
+}
+
+#cities h2,
+#table-of-contents h2 {
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 600;
+}
+
 /**********************************
     Table of contents
 **********************************/
-#table-of-contents {}
+#table-of-contents {
+    background: #FFF6FF;
+    padding: 24px 0;
+}
+
+#table-of-contents-content {
+    background-color: #fff;
+}
+
+#table-of-contents-content .col {
+    padding: 0 2rem;
+}
+
+.table-of-contents-content-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.table-of-contents-content-items {
+    padding: 4px 0;
+    margin-left: 32px;
+    font-size: 15px;
+}
+
 
 /**********************************
     Stats
 **********************************/
-#stats {}
+#stats {
+    padding: 80px 40px;
+    background-image: url("../images/stats.png");
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    background-attachment: fixed;
+}
+
+.stats-content-title {
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 60px;
+}
+
+.stats-content-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+}
 
 /**********************************
     Footer
 **********************************/
-#footer {}
+#footer {
+    background-color: var(--purple);
+}
